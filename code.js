@@ -365,6 +365,19 @@ const homeOptions = [
         ]
     },
     {
+        // bhd 20
+        name: "education",
+        insideOptions: [
+    //         {
+    //             title: 'בדיקות שגרה',
+    //             titleColor: "orenge",
+    //             explain: "תרגול מקדים לפני ביצוע מעשי",
+    //             link: "https://mador-till-prod.github.io/BHD-10-Medics/Routine-testing/",
+    //             icon: "assests/21shigra.svg",
+            // }
+        ]
+    },
+    {
         // generic
         name: "trauma",
         insideOptions: [
@@ -373,21 +386,21 @@ const homeOptions = [
                 titleColor: "orenge",
                 explain: "לומדה גנרית",
                 link: "https://mador-till-prod.github.io/The-Race/main.html",
-                icon: "assests/22kinematics.svg",
+                icon: "images/bhd_symbols/tilblack.svg",
             },
             {
                 title: 'מי רוצה להיות מיליונר',
                 titleColor: "orenge",
                 explain: "תרגול",
                 link: "https://mador-till-prod.github.io/who-wants-to-be-talab/",
-                icon: "assests/23sab.svg",
+                icon: "images/bhd_symbols/tilblack.svg",
             },
             {
                 title: 'מניפה דיגיטלית',
                 titleColor: "orenge",
                 explain: "לומדה גנרית",
                 link: "https://mador-till-prod.github.io/digital-fan/",
-                icon: "assests/24cde.svg",
+                icon: "images/bhd_symbols/tilblack.svg",
             }
         ]
     }
@@ -409,6 +422,7 @@ window.onload = () => {
     document.getElementById("medication-button").addEventListener("click", onClickMedicationHome);
     document.getElementById("anamnesys-button").addEventListener("click", onClickAnamnesysHome);
     document.getElementById("shigra-button").addEventListener("click", onClickShigraHome);
+    document.getElementById("education-button").addEventListener("click", onClickShigraHome);
     document.getElementById("trauma-button").addEventListener("click", onClickTraumaHome);
 
     //small menu buttons
@@ -417,6 +431,7 @@ window.onload = () => {
     document.querySelector(".medication").addEventListener("click", onClickMedicationSmall);
     document.querySelector(".anamnesys").addEventListener("click", onClickAnamnesysSmall);
     document.querySelector(".shigra").addEventListener("click", onClickShigraSmall);
+    document.querySelector(".education").addEventListener("click", onClickEducationSmall);
     document.querySelector(".trauma").addEventListener("click", onClickTraumaSmall);
 
     document.querySelectorAll(".menu-icon")[0].addEventListener("click", onClickBurger);
@@ -545,6 +560,15 @@ function onClickShigraHome() {
     addAllOtions("shigra");
 }
 
+function onClickEducationHome() {
+    
+    document.querySelector(".home-page").classList.add("inactive");
+    document.querySelector(".info").classList.remove("inactive");
+
+    document.querySelector(".education").classList.add("education-on");
+    addAllOtions("education");
+}
+
 function onClickTraumaHome() {
 
     document.querySelector(".home-page").classList.add("inactive");
@@ -581,6 +605,11 @@ function onClickShigraSmall() {
     addAllOtions("shigra");
 }
 
+function  onClickEducationSmall () {
+    document.querySelector(".education").classList.add("education-on");
+    addAllOtions("education");
+}
+
 function onClickTraumaSmall() {
     document.querySelector(".trauma").classList.add("trauma-on");
     addAllOtions("trauma");
@@ -614,6 +643,9 @@ function onClickBurger(event) {
 
     document.getElementById("burgerShigra").addEventListener("click", onClickShigraHome);
     document.getElementById("burgerShigra").addEventListener("click", closeBurgerNav);
+
+    document.getElementById("burgerEducation").addEventListener("click", onClickShigraHome);
+    document.getElementById("burgerEducation").addEventListener("click", closeBurgerNav);
 
     document.getElementById("burgerTrauma").addEventListener("click", onClickTraumaHome);
     document.getElementById("burgerTrauma").addEventListener("click", closeBurgerNav);

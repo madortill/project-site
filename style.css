@@ -459,7 +459,7 @@ header a{
 }
 
 .anatomy{
-  background-image: url("assests/1Sanatomy.svg");
+  background-image: url("images/bhd_symbols/bhd_6.png");
   background-repeat: no-repeat;
   /* background-size: cover; */
   justify-content: center;
@@ -470,7 +470,7 @@ header a{
 }
 
 .anatomy-on{
-  background-image: url("assests/1Sanatomyselected.svg");
+  background-image: url("images/bhd_symbols/bhd_6.png");
   color:white;
 }
 
@@ -493,7 +493,7 @@ header a{
 }
 
 .medication{
-  background-image: url("assests/3Smedication.svg");
+  background-image: url("images/bhd_symbols/bhd_11.png");
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
@@ -503,12 +503,12 @@ header a{
 }
 
 .medication-on{
-  background-image: url("assests/3Smedicationselected.svg");
+  background-image: url("images/bhd_symbols/bhd_11.png");
   color:white;
 }
 
 .anamnesys{
-  background-image: url("assests/4Sanamnesys.svg");
+  background-image: url("images/bhd_symbols/bhd_13.png");
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
@@ -518,12 +518,12 @@ header a{
 }
 
 .anamnesys-on{
-  background-image: url("assests/4Sanamnesysselected.svg");
+  background-image: url("images/bhd_symbols/bhd_13.png");
   color:white;
 }
 
 .shigra{
-  background-image: url("assests/5Sshigra.svg");
+  background-image: url("images/bhd_symbols/bhd_20.png");
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
@@ -533,12 +533,27 @@ header a{
 }
 
 .shigra-on{
-  background-image: url("assests/5Sshigraselected.svg");
+  background-image: url("images/bhd_symbols/bhd_20.png");
+  color:white;
+}
+
+.education{
+  background-image: url("images/bhd_symbols/education_bhd.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  text-align: center;
+  color:#EF5B5B;
+}
+
+.education-on{
+  background-image: url("images/bhd_symbols/education_bhd.png");
   color:white;
 }
 
 .trauma{
-  background-image: url("assests/6Strauma.svg");
+  background-image: url("images/bhd_symbols/tilblack.svg");
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
@@ -548,7 +563,7 @@ header a{
 }
 
 .trauma-on{
-  background-image: url("assests/6StraumaSelected.svg");
+  background-image: url("images/bhd_symbols/tilblack.svg");
   color:white;
 }
 
