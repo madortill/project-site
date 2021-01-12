@@ -476,7 +476,7 @@ header a{
 
 .resucitation{
   margin: 0;
-  background-image: url("assests/2Sresucitation.svg");
+  background-image: url("assests/bhd10logo.svg");
   background-repeat: no-repeat;
   /* background-size: cover; */
   justify-content: center;
@@ -488,7 +488,7 @@ header a{
 }
 
 .resucitation-on{
-  background-image: url("assests/2Sresucitationselected.svg");
+  background-image: url("assests/bhd10logo.svg");
   color:white;
 }
 

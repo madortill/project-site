@@ -1,13 +1,62 @@
 const homeOptions = [
     {
+        // bhd 6
         name: "anatomy",
         insideOptions: [
+            // {
+            //     title: "יסודות מבנה הגוף",
+            //     titleColor: "red", 
+            //     explain:"מי רוצה להיות חובש? - שאלות חזרה",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/Body-structure/",
+            //     icon: "assests/yesodotmivneihaguf.svg",
+            // },
+            // {
+            //     title: "מע' העצבים",
+            //     titleColor: "red",
+            //     explain: "מי רוצה להיות חובש? - שאלות חזרה",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/nerve-system/",
+            //     icon: "assests/2nerve.svg",
+            // },
+            // {
+            //     title: "מע' הנשימה",
+            //     titleColor: "red",
+            //     explain: "מי רוצה להיות חובש? - שאלות חזרה",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/breath-system/",
+            //     icon: "assests/3breath.svg",
+            // },
+            // {
+            //     title: "מע' ההובלה",
+            //     titleColor: "red",
+            //     explain: "מי רוצה להיות חובש? - שאלות חזרה",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/hovala/",
+            //     icon: "assests/4hovala.svg",
+            // },
+            // {
+            //     title: "מע' העיכול",
+            //     titleColor: "red",
+            //     explain: "מי רוצה להיות חובש? - שאלות חזרה",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/haykol/",
+            //     icon: "assests/5digestion.svg",
+            // },
+            // {
+            //     title: "מע' העור,שריר, שלד ושתן",
+            //     titleColor: "red",
+            //     explain: "מי רוצה להיות חובש? - שאלות חזרה",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/sheten-oor-sheled/",
+            //     icon: "assests/6skinmusclebonepiss.svg",
+            // }
+        ]
+    },
+    {
+        // bhd 10
+        name: "resucitation",
+        insideOptions: [
             {
-                title: "יסודות מבנה הגוף",
-                titleColor: "red", 
-                explain:"מי רוצה להיות חובש? - שאלות חזרה",
-                link: "https://mador-till-prod.github.io/BHD-10-Medics/Body-structure/",
-                icon: "assests/yesodotmivneihaguf.svg",
+                title: 'אתר ראשי',
+                titleColor: "red",
+                explain: "אתר שמכיל את כל הלומדות של חובשים",
+                link: "https://mador-till-prod.github.io/BHD-10-Medics/big-site/",
+                icon: "assests/n4medication.svg",
             },
             {
                 title: "מע' העצבים",
@@ -43,11 +92,7 @@ const homeOptions = [
                 explain: "מי רוצה להיות חובש? - שאלות חזרה",
                 link: "https://mador-till-prod.github.io/BHD-10-Medics/sheten-oor-sheled/",
                 icon: "assests/6skinmusclebonepiss.svg",
-            }]
-    },
-    {
-        name: "resucitation",
-        insideOptions: [
+            },
             {
                 title: 'החייאת ילדים ותינוקות',
                 titleColor: "red",
@@ -82,24 +127,6 @@ const homeOptions = [
                 explain: "מי רוצה להיות חובש? - שאלות חזרה",
                 link: "https://mador-till-prod.github.io/BHD-10-Medics/Machshirim/",
                 icon: "assests/resucitationmachines.svg",
-            }]
-    },
-    {
-        name: "medication",
-        insideOptions: [
-            {
-                title: 'מבוא למחלות מדבקות',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד על מבוא למחלות מדבקות",
-                link: "https://www.youtube.com/watch?v=RjlManlauRo&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=2&t=0s",
-                icon: "assests/9contagious.svg",
-            },
-            {
-                title: 'רפואה ראשונית',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד על הבסיס שלרפואה ראשונית",
-                link: "https://youtu.be/wlGR877Bajo",
-                icon: "assests/10firstmedic.svg",
             },
             {
                 title: 'עקרונות הטיפול התרופתי',
@@ -121,125 +148,248 @@ const homeOptions = [
                 explain: "למידה על מחלות כרוניות נפוצות",
                 link: "https://mador-till-prod.github.io/BHD-10-Medics/chronic-diseases/",
                 icon: "assests/13chronic.svg",
-            },
+            },]
+    },
+    {
+        // bhd 11
+        name: "medication",
+        insideOptions: [
+            // {
+            //     title: 'מבוא למחלות מדבקות',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד על מבוא למחלות מדבקות",
+            //     link: "https://www.youtube.com/watch?v=RjlManlauRo&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=2&t=0s",
+            //     icon: "assests/9contagious.svg",
+            // },
+            // {
+            //     title: 'רפואה ראשונית',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד על הבסיס שלרפואה ראשונית",
+            //     link: "https://youtu.be/wlGR877Bajo",
+            //     icon: "assests/10firstmedic.svg",
+            // },
+            // {
+            //     title: 'עקרונות הטיפול התרופתי',
+            //     titleColor: "orenge",
+            //     explain: "למידת מושגים ב-4 דרכים שונות",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/The-principles-of-drug/",
+            //     icon: "assests/11trufati.svg",
+            // },
+            // {
+            //     title: 'מצבים דחופים בשגרה',
+            //     titleColor: "orenge",
+            //     explain: "סימולציית טיפול בחייל בשגרה",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/Matzavim-Dhufim-Bashigra/index.html",
+            //     icon: "assests/12herum.svg",
+            // },
+            // {
+            //     title: 'מחלות כרוניות ',
+            //     titleColor: "orenge",
+            //     explain: "למידה על מחלות כרוניות נפוצות",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/chronic-diseases/",
+            //     icon: "assests/13chronic.svg",
+            // },
+            // {
+            //     title: 'אנמנזה דגלים אדומים',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד ונכיר את הדגלים האדומים באנמנזה",
+            //     link: "https://www.youtube.com/watch?v=sJdyuJLcVW4&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=17&t=0s",
+            //     icon: "assests/14redflags.svg",
+            // },
+            // {
+            //     title: 'אנמנזה כאבי <br>ראש',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד להתמודד עם תלונות על כאבי ראש",
+            //     link: "https://youtu.be/cyKsfXtgevY",
+            //     icon: "assests/15headache.svg",
+            // },
+            // {
+            //     title: 'אנמנזה נשימה ',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד להתמודד עם תלונות על נשימה",
+            //     link: "https://youtu.be/sQwS6uYCGto",
+            //     icon: "assests/16breathe.svg",
+            // },
+            // {
+            //     title: 'אנמנזה תנועה',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד להתמודד עם תלונות על תנועה",
+            //     link: "https://youtu.be/MEh25gHyYzI",
+            //     icon: "assests/17movement.svg",
+            // },
+            // {
+            //     title: 'אנמנזה שתן מין',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת שתן מין",
+            //     link: "https://youtu.be/5ccQVIRlZjc",
+            //     icon: "assests/18bladder.svg",
+            // },
+            // {
+            //     title: 'אנמנזה עיכול',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת העיכול",
+            //     link: "https://www.youtube.com/watch?v=4JdiKtVV9oQ&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=5&t=0s",
+            //     icon: "assests/18digestion.svg",
+            // },
+            // {
+            //     title: 'אנמנזה עורית ',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת עורית",
+            //     link: "https://youtu.be/RPCxkKpVX8Y",
+            //     icon: "assests/19skin.svg",
+            // },
+            // {
+            //     title: 'עין ואוזן ',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת עין ואוזן",
+            //     link: "https://www.youtube.com/watch?v=6peuSa4y-nk&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=19&t=0s",
+            //     icon: "assests/20eareyes.svg",
+            // },
+            // {
+            //     title: 'בדיקות שגרה',
+            //     titleColor: "orenge",
+            //     explain: "תרגול מקדים לפני ביצוע מעשי",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/Routine-testing/",
+            //     icon: "assests/21shigra.svg",
+            // },
+            // {
+            //     title: 'קינימטיקה',
+            //     titleColor: "orenge",
+            //     explain: "למידה ותרגול של הסקת מסקנות מזירת אירוע",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/kinematics",
+            //     icon: "assests/22kinematics.svg",
+            // },
+            // {
+            //     title: 'SAB',
+            //     titleColor: "orenge",
+            //     explain: "למידה ותרגול של שלושת השלבים הראשונים לטיפול בפצוע בעת הגעה לאירוע",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/sab/",
+            //     icon: "assests/23sab.svg",
+            // },
+            // {
+            //     title: 'CDE ',
+            //     titleColor: "orenge",
+            //     explain: "למידה ותרגול של שלושת השלבים הנוספים לטיפול בפצוע בעת הגעה לאירוע",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/cde/",
+            //     icon: "assests/24cde.svg",
+            // },
+            // {
+            //     title: 'סקרים מתקדמים',
+            //     titleColor: "orenge",
+            //     explain: "למידה ותרגול של תפקיד החובש לאחר טיפול ראשוני",
+            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/skarim-mitkadmim/",
+            //     icon: "assests/25skarimmitkadmim.svg",
+            // },
+            // {
+            //     title: 'פגיעות אקלים <br>חם',
+            //     titleColor: "yellow",
+            //     explain: "בסרטון זה נלמד על פגיעות אקלים",
+            //     link: "https://youtu.be/9f3pwp0jNKc",
+            //     icon: "assests/26hotclimate.svg",
+            //  }
         ]
     },
     {
+        // bhd 13
         name: "anamnesys",
         insideOptions: [
-            {
-                title: 'אנמנזה דגלים אדומים',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד ונכיר את הדגלים האדומים באנמנזה",
-                link: "https://www.youtube.com/watch?v=sJdyuJLcVW4&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=17&t=0s",
-                icon: "assests/14redflags.svg",
-            },
-            {
-                title: 'אנמנזה כאבי <br>ראש',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד להתמודד עם תלונות על כאבי ראש",
-                link: "https://youtu.be/cyKsfXtgevY",
-                icon: "assests/15headache.svg",
-            },
-            {
-                title: 'אנמנזה נשימה ',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד להתמודד עם תלונות על נשימה",
-                link: "https://youtu.be/sQwS6uYCGto",
-                icon: "assests/16breathe.svg",
-            },
-            {
-                title: 'אנמנזה תנועה',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד להתמודד עם תלונות על תנועה",
-                link: "https://youtu.be/MEh25gHyYzI",
-                icon: "assests/17movement.svg",
-            },
-            {
-                title: 'אנמנזה שתן מין',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת שתן מין",
-                link: "https://youtu.be/5ccQVIRlZjc",
-                icon: "assests/18bladder.svg",
-            },
-            {
-                title: 'אנמנזה עיכול',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת העיכול",
-                link: "https://www.youtube.com/watch?v=4JdiKtVV9oQ&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=5&t=0s",
-                icon: "assests/18digestion.svg",
-            },
-            {
-                title: 'אנמנזה עורית ',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת עורית",
-                link: "https://youtu.be/RPCxkKpVX8Y",
-                icon: "assests/19skin.svg",
-            },
-            {
-                title: 'עין ואוזן ',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת עין ואוזן",
-                link: "https://www.youtube.com/watch?v=6peuSa4y-nk&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=19&t=0s",
-                icon: "assests/20eareyes.svg",
-            }]
+    //         {
+    //             title: 'אנמנזה דגלים אדומים',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד ונכיר את הדגלים האדומים באנמנזה",
+    //             link: "https://www.youtube.com/watch?v=sJdyuJLcVW4&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=17&t=0s",
+    //             icon: "assests/14redflags.svg",
+    //         },
+    //         {
+    //             title: 'אנמנזה כאבי <br>ראש',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד להתמודד עם תלונות על כאבי ראש",
+    //             link: "https://youtu.be/cyKsfXtgevY",
+    //             icon: "assests/15headache.svg",
+    //         },
+    //         {
+    //             title: 'אנמנזה נשימה ',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד להתמודד עם תלונות על נשימה",
+    //             link: "https://youtu.be/sQwS6uYCGto",
+    //             icon: "assests/16breathe.svg",
+    //         },
+    //         {
+    //             title: 'אנמנזה תנועה',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד להתמודד עם תלונות על תנועה",
+    //             link: "https://youtu.be/MEh25gHyYzI",
+    //             icon: "assests/17movement.svg",
+    //         },
+    //         {
+    //             title: 'אנמנזה שתן מין',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת שתן מין",
+    //             link: "https://youtu.be/5ccQVIRlZjc",
+    //             icon: "assests/18bladder.svg",
+    //         },
+    //         {
+    //             title: 'אנמנזה עיכול',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת העיכול",
+    //             link: "https://www.youtube.com/watch?v=4JdiKtVV9oQ&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=5&t=0s",
+    //             icon: "assests/18digestion.svg",
+    //         },
+    //         {
+    //             title: 'אנמנזה עורית ',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת עורית",
+    //             link: "https://youtu.be/RPCxkKpVX8Y",
+    //             icon: "assests/19skin.svg",
+    //         },
+    //         {
+    //             title: 'עין ואוזן ',
+    //             titleColor: "yellow",
+    //             explain: "בסרטון זה נלמד להתמודד עם תלונות על מערכת עין ואוזן",
+    //             link: "https://www.youtube.com/watch?v=6peuSa4y-nk&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=19&t=0s",
+    //             icon: "assests/20eareyes.svg",
+            // }
+        ]
     },
     {
+        // bhd 20
         name: "shigra",
         insideOptions: [
-            {
-                title: 'בדיקות שגרה',
-                titleColor: "orenge",
-                explain: "תרגול מקדים לפני ביצוע מעשי",
-                link: "https://mador-till-prod.github.io/BHD-10-Medics/Routine-testing/",
-                icon: "assests/21shigra.svg",
-            }]
+    //         {
+    //             title: 'בדיקות שגרה',
+    //             titleColor: "orenge",
+    //             explain: "תרגול מקדים לפני ביצוע מעשי",
+    //             link: "https://mador-till-prod.github.io/BHD-10-Medics/Routine-testing/",
+    //             icon: "assests/21shigra.svg",
+            // }
+        ]
     },
     {
+        // generic
         name: "trauma",
         insideOptions: [
             {
-                title: 'קינימטיקה',
+                title: 'המרוץ לבסיס',
                 titleColor: "orenge",
-                explain: "למידה ותרגול של הסקת מסקנות מזירת אירוע",
-                link: "https://mador-till-prod.github.io/BHD-10-Medics/kinematics",
+                explain: "לומדה גנרית",
+                link: "https://mador-till-prod.github.io/The-Race/main.html",
                 icon: "assests/22kinematics.svg",
             },
             {
-                title: 'SAB',
+                title: 'מי רוצה להיות מיליונר',
                 titleColor: "orenge",
-                explain: "למידה ותרגול של שלושת השלבים הראשונים לטיפול בפצוע בעת הגעה לאירוע",
-                link: "https://mador-till-prod.github.io/BHD-10-Medics/sab/",
+                explain: "תרגול",
+                link: "https://mador-till-prod.github.io/who-wants-to-be-talab/",
                 icon: "assests/23sab.svg",
             },
             {
-                title: 'CDE ',
+                title: 'מניפה דיגיטלית',
                 titleColor: "orenge",
-                explain: "למידה ותרגול של שלושת השלבים הנוספים לטיפול בפצוע בעת הגעה לאירוע",
-                link: "https://mador-till-prod.github.io/BHD-10-Medics/cde/",
+                explain: "לומדה גנרית",
+                link: "https://mador-till-prod.github.io/digital-fan/",
                 icon: "assests/24cde.svg",
-            },
-            {
-                title: 'סקרים מתקדמים',
-                titleColor: "orenge",
-                explain: "למידה ותרגול של תפקיד החובש לאחר טיפול ראשוני",
-                link: "https://mador-till-prod.github.io/BHD-10-Medics/skarim-mitkadmim/",
-                icon: "assests/25skarimmitkadmim.svg",
-            },
-            {
-                title: 'פגיעות אקלים <br>חם',
-                titleColor: "yellow",
-                explain: "בסרטון זה נלמד על פגיעות אקלים",
-                link: "https://youtu.be/9f3pwp0jNKc",
-                icon: "assests/26hotclimate.svg",
-             }/*,
-            // {
-            //     title: 'פגיעות אקלים <br>קר',
-            //     titleColor: "yellow",
-            //     explain: "בסרטון זה נלמד על פגיעות אקלים",
-            //     link: "www",
-            //     icon: "assests/27coldclimate.svg",
-            // }*/]
+            }
+        ]
     }
 ];
 
