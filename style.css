@@ -448,9 +448,10 @@ header a{
 }
 
 .small-option-buttom{
-  min-width: 35%;
-  display: inline-block;
-  background-size: 100% 100%;
+    min-width: 35%;
+    display: inline-block;
+    background-size: 75% 85%;
+    margin-top: 3vh;
 }
 
 .small-option-text{
@@ -475,8 +476,7 @@ header a{
 }
 
 .resucitation{
-  margin: 0;
-  background-image: url("assests/bhd10logo.svg");
+  background-image: url("images/bhd_symbols/bhd_10.png");
   background-repeat: no-repeat;
   /* background-size: cover; */
   justify-content: center;
@@ -488,7 +488,7 @@ header a{
 }
 
 .resucitation-on{
-  background-image: url("assests/bhd10logo.svg");
+  background-image: url("images/bhd_symbols/bhd_10.png");
   color:white;
 }
 
