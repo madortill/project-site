@@ -16,6 +16,13 @@ const homeOptions = [
                 explain: "אפליקציה",
                 link: "https://play.google.com/store/apps/details?id=mador.till.memorylogistica789",
                 icon: "images/bhd_6_questions.webp",
+            },
+            {
+                title: "מחשבון נהיגה",
+                titleColor: "red", 
+                explain: "לומדה",
+                link: "https://madortill.github.io/BHD6DrivingCalculator/",
+                icon: "images/bhd_6_driving_app.webp",
             }
             // {
             //     title: "מע' הנשימה",
@@ -395,6 +402,20 @@ const homeOptions = [
                 icon: "images/army_app.webp",
             },
             {
+                title: 'המירוץ לבסיס- צפ"ה',
+                titleColor: "red",
+                explain: 'לומדה',
+                link: "https://madortill.github.io/the-race-tsapa/main.html",
+                icon: "images/bhd_symbols/school_bhd.png",
+            },
+            {
+                title: 'תל"ב',
+                titleColor: "red",
+                explain: 'מי רוצה להיות מיליונר- מדור פה"ד',
+                link: "https://madortill.github.io/who-wants-to-be-talab/",
+                icon: "images/bhd_symbols/school_bhd.png",
+            },
+            {
                 title: 'עיקרי העשייה בענף ההדרכה',
                 titleColor: "red",
                 explain: 'אתר',
@@ -449,6 +470,13 @@ const homeOptions = [
                 icon: "images/bhd_symbols/tilblack.svg",
             },
             {
+                title: 'quizlet',
+                titleColor: "red",
+                explain: "לומדה גנרית",
+                link: "https://madortill.github.io/generic-quizlet/",
+                icon: "images/bhd_symbols/tilblack.svg",
+            },
+            {
                 title: 'Knowit',
                 titleColor: "yello",
                 explain: "אפליקציה",
@@ -460,6 +488,13 @@ const homeOptions = [
                 titleColor: "yello",
                 explain: "אפליקציה",
                 link: "https://play.google.com/console/u/0/developers/8917869170936597345/app/4975376036401263092/app-dashboard?timespan=thirtyDays",
+                icon: "images/bhd_symbols/tilblack.svg",
+            },
+            {
+                title: 'קטלוג תוצרים מדור טי"ל',
+                titleColor: "yello",
+                explain: "אתר",
+                link: "https://madortill.github.io/Portfolio/",
                 icon: "images/bhd_symbols/tilblack.svg",
             }
         ]
