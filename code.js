@@ -3,20 +3,20 @@ const homeOptions = [
         // bhd 6
         name: "anatomy",
         insideOptions: [
-            // {
-            //     title: "יסודות מבנה הגוף",
-            //     titleColor: "red", 
-            //     explain:"מי רוצה להיות חובש? - שאלות חזרה",
-            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/Body-structure/",
-            //     icon: "assests/yesodotmivneihaguf.svg",
-            // },
-            // {
-            //     title: "מע' העצבים",
-            //     titleColor: "red",
-            //     explain: "מי רוצה להיות חובש? - שאלות חזרה",
-            //     link: "https://mador-till-prod.github.io/BHD-10-Medics/nerve-system/",
-            //     icon: "assests/2nerve.svg",
-            // },
+            {
+                title: "הוראות בטיחות בנהיגה",
+                titleColor: "yellow", 
+                explain:"אפליקציה",
+                link: "https://play.google.com/store/apps/details?id=com.till.drivingApp",
+                icon: "images/bhd_6_driving_app.webp",
+            },
+            {
+                title: "יש לי מושג- מקצועות הלוגיסטיקה",
+                titleColor: "yellow",
+                explain: "אפליקציה",
+                link: "https://play.google.com/store/apps/details?id=mador.till.memorylogistica789",
+                icon: "images/bhd_6_questions.webp",
+            }
             // {
             //     title: "מע' הנשימה",
             //     titleColor: "red",
@@ -154,13 +154,13 @@ const homeOptions = [
         // bhd 11
         name: "medication",
         insideOptions: [
-            // {
-            //     title: 'מבוא למחלות מדבקות',
-            //     titleColor: "yellow",
-            //     explain: "בסרטון זה נלמד על מבוא למחלות מדבקות",
-            //     link: "https://www.youtube.com/watch?v=RjlManlauRo&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=2&t=0s",
-            //     icon: "assests/9contagious.svg",
-            // },
+            {
+                title: 'מושגים בעולם משאבי אנוש',
+                titleColor: "yellow",
+                explain: "אפליקציה",
+                link: "https://play.google.com/store/apps/details?id=com.till.htapp.bahad11",
+                icon: "images/bhd_11_app.webp",
+            }
             // {
             //     title: 'רפואה ראשונית',
             //     titleColor: "yellow",
@@ -293,13 +293,13 @@ const homeOptions = [
         // bhd 13
         name: "anamnesys",
         insideOptions: [
-    //         {
-    //             title: 'אנמנזה דגלים אדומים',
-    //             titleColor: "yellow",
-    //             explain: "בסרטון זה נלמד ונכיר את הדגלים האדומים באנמנזה",
-    //             link: "https://www.youtube.com/watch?v=sJdyuJLcVW4&list=PLPG8RZNM8LuUXDnjeKWAhd6hk6FsRy6T2&index=17&t=0s",
-    //             icon: "assests/14redflags.svg",
-    //         },
+            {
+                title: 'חנ"ה לשוטר צבאי',
+                titleColor: "yellow",
+                explain: "אפליקציה",
+                link: "https://play.google.com/store/apps/details?id=com.till.hanaapp",
+                icon: "images/bhd_13_app.webp",
+            }
     //         {
     //             title: 'אנמנזה כאבי <br>ראש',
     //             titleColor: "yellow",
@@ -355,26 +355,72 @@ const homeOptions = [
         // bhd 20
         name: "shigra",
         insideOptions: [
-    //         {
-    //             title: 'בדיקות שגרה',
-    //             titleColor: "orenge",
-    //             explain: "תרגול מקדים לפני ביצוע מעשי",
-    //             link: "https://mador-till-prod.github.io/BHD-10-Medics/Routine-testing/",
-    //             icon: "assests/21shigra.svg",
-            // }
+            {
+                title: 'אין תוצרים',
+                titleColor: "orenge",
+                explain: 'קישור לאפליקציה "יש לי מושג- אופטיקה ואלקטרוניקה" לא קיים',
+                icon: "images/bhd_symbols/tilblack.svg",
+            }
         ]
     },
     {
-        // bhd 20
+        // education
         name: "education",
         insideOptions: [
-    //         {
-    //             title: 'בדיקות שגרה',
-    //             titleColor: "orenge",
-    //             explain: "תרגול מקדים לפני ביצוע מעשי",
-    //             link: "https://mador-till-prod.github.io/BHD-10-Medics/Routine-testing/",
-    //             icon: "assests/21shigra.svg",
-            // }
+            {
+                title: 'יש לי מושג- השלמת חינוך',
+                titleColor: "yellow",
+                explain: "אפליקציה",
+                link: "https://play.google.com/store/apps/details?id=com.ionicframework.memoryhinuh973095",
+                icon: "images/bhd_6_questions.webp",
+            },
+            {
+                title: "מושגים בעולם החינוך בנושא העלייה וההשכלה",
+                titleColor: "yellow",
+                explain: "אפליקציה",
+                link: "https://play.google.com/store/apps/details?id=com.till.htapp.mekahar",
+                icon: "images/bhd_education_app.webp",
+            }
+        ]
+    },
+    {
+        // school
+        name: "school",
+        insideOptions: [
+            {
+                title: 'מושגים בעולם הצפ"ה',
+                titleColor: "red",
+                explain: 'לומדה',
+                link: "https://mador-till-prod.github.io/tozarim-mutamim/Moshagim-in-zapa/",
+                icon: "images/army_app.webp",
+            },
+            {
+                title: 'עיקרי העשייה בענף ההדרכה',
+                titleColor: "red",
+                explain: 'אתר',
+                link: "https://madortill.github.io/",
+                icon: "images/bhd_symbols/school_bhd.png",
+            }
+        ]
+    },
+    {
+        // army
+        name: "army",
+        insideOptions: [
+            {
+                title: 'הכנה לקצונה',
+                titleColor: "yellow",
+                explain: 'אפליקצייה',
+                link: "https://play.google.com/store/apps/details?id=com.till.officerspreparation",
+                icon: "images/katzin.webp",
+            },
+            {
+                title: 'מושגים בעולם ההדרכה',
+                titleColor: "yellow",
+                explain: 'אפליקצייה',
+                link: "https://play.google.com/store/apps/details?id=til.hadrahatrivia",
+                icon: "images/army_app.webp",
+            }
         ]
     },
     {
@@ -401,6 +447,20 @@ const homeOptions = [
                 explain: "לומדה גנרית",
                 link: "https://mador-till-prod.github.io/digital-fan/",
                 icon: "images/bhd_symbols/tilblack.svg",
+            },
+            {
+                title: 'Knowit',
+                titleColor: "yello",
+                explain: "אפליקציה",
+                link: "https://play.google.com/store/apps/details?id=madortill.knowit",
+                icon: "images/knowit_app.webp",
+            },
+            {
+                title: 'למידע',
+                titleColor: "yello",
+                explain: "אפליקציה",
+                link: "https://play.google.com/console/u/0/developers/8917869170936597345/app/4975376036401263092/app-dashboard?timespan=thirtyDays",
+                icon: "images/bhd_symbols/tilblack.svg",
             }
         ]
     }
@@ -422,7 +482,9 @@ window.onload = () => {
     document.getElementById("medication-button").addEventListener("click", onClickMedicationHome);
     document.getElementById("anamnesys-button").addEventListener("click", onClickAnamnesysHome);
     document.getElementById("shigra-button").addEventListener("click", onClickShigraHome);
-    document.getElementById("education-button").addEventListener("click", onClickShigraHome);
+    document.getElementById("education-button").addEventListener("click", onClickEducationHome);
+    document.getElementById("school-button").addEventListener("click", onClickSchoolHome);
+    document.getElementById("army-button").addEventListener("click", onClickArmyHome);
     document.getElementById("trauma-button").addEventListener("click", onClickTraumaHome);
 
     //small menu buttons
@@ -431,6 +493,8 @@ window.onload = () => {
     document.querySelector(".medication").addEventListener("click", onClickMedicationSmall);
     document.querySelector(".anamnesys").addEventListener("click", onClickAnamnesysSmall);
     document.querySelector(".shigra").addEventListener("click", onClickShigraSmall);
+    document.querySelector(".school").addEventListener("click", onClickSchoolSmall);
+    document.querySelector(".army").addEventListener("click", onClickArmySmall);
     document.querySelector(".education").addEventListener("click", onClickEducationSmall);
     document.querySelector(".trauma").addEventListener("click", onClickTraumaSmall);
 
@@ -569,6 +633,26 @@ function onClickEducationHome() {
     addAllOtions("education");
 }
 
+function onClickSchoolHome() {
+
+    document.querySelector(".home-page").classList.add("inactive");
+    document.querySelector(".info").classList.remove("inactive");
+
+    document.querySelector(".school").classList.add("school-on");
+    addAllOtions("school");
+}
+
+
+function onClickArmyHome() {
+
+    document.querySelector(".home-page").classList.add("inactive");
+    document.querySelector(".info").classList.remove("inactive");
+
+    document.querySelector(".army").classList.add("army-on");
+    addAllOtions("army");
+}
+
+
 function onClickTraumaHome() {
 
     document.querySelector(".home-page").classList.add("inactive");
@@ -610,6 +694,16 @@ function  onClickEducationSmall () {
     addAllOtions("education");
 }
 
+function onClickSchoolSmall() {
+    document.querySelector(".school").classList.add("school-on");
+    addAllOtions("school");
+}
+
+function onClickArmySmall() {
+    document.querySelector(".army").classList.add("army-on");
+    addAllOtions("army");
+}
+
 function onClickTraumaSmall() {
     document.querySelector(".trauma").classList.add("trauma-on");
     addAllOtions("trauma");
@@ -644,8 +738,14 @@ function onClickBurger(event) {
     document.getElementById("burgerShigra").addEventListener("click", onClickShigraHome);
     document.getElementById("burgerShigra").addEventListener("click", closeBurgerNav);
 
-    document.getElementById("burgerEducation").addEventListener("click", onClickShigraHome);
+    document.getElementById("burgerEducation").addEventListener("click", onClickEducationHome);
     document.getElementById("burgerEducation").addEventListener("click", closeBurgerNav);
+
+    document.getElementById("burgerSchool").addEventListener("click", onClickSchoolHome);
+    document.getElementById("burgerSchool").addEventListener("click", closeBurgerNav);
+
+    document.getElementById("burgerArmy").addEventListener("click", onClickArmyHome);
+    document.getElementById("burgerArmy").addEventListener("click", closeBurgerNav);
 
     document.getElementById("burgerTrauma").addEventListener("click", onClickTraumaHome);
     document.getElementById("burgerTrauma").addEventListener("click", closeBurgerNav);

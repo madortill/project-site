@@ -414,9 +414,10 @@ header a{
 
 
 .img-link{
-  height: 22vh;
+  height: 15vh;
     width: 32vw;
   float: left;
+  margin-right: 3vw;
 }
 
 .headline-link{
@@ -552,6 +553,40 @@ header a{
   color:white;
 }
 
+.school{
+  background-image: url("images/bhd_symbols/school_bhd.png");
+  background-size: 100% 82%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  text-align: center;
+  color: #EF5B5B;
+  margin-right: 7vw;
+}
+
+.school-on{
+  background-image: url("images/bhd_symbols/school_bhd.png");
+  color:white;
+}
+
+.army{
+  background-image: url("images/bhd_symbols/army.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  text-align: center;
+  background-size: 100% 75%;
+  color: #EF5B5B;
+  margin-right: 7vw;
+}
+
+.army-on{
+  background-image: url("images/bhd_symbols/army.png");
+  color:white;
+}
+
 .trauma{
   background-image: url("images/bhd_symbols/tilblack.svg");
   background-repeat: no-repeat;
@@ -656,7 +691,7 @@ header a{
 }
 
 #burgerNav div img{
-  width: 12vw;
+  width: 10vw;
 }
 
 
